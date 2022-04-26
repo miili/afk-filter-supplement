@@ -1,5 +1,7 @@
 # Extended Supplement: DAS Adaptive frquency-wavenumber filter
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6485993.svg)](https://doi.org/10.5281/zenodo.6485993)
+
 > De-noising distributed acoustic sensing data using an adaptive frequency-wavenumber filter; Marius P Isken, S Heimann, H Vasyura-Bathke, T Dahm;
 
 Electronic supplement for doi.org/
