@@ -20,7 +20,7 @@
             "name": "Dahm, Torsten"
         }
     ],
-    "license": "AGPL-3.0",
+    "license": "AGPL-3.0-or-later",
     "related_identifiers": [
         {
             "scheme": "doi",
@@ -43,7 +43,7 @@
     ],
     "grants": [
         {
-            "id": "777541"
+            "id": "03EE4018"
         }
     ]
 }
