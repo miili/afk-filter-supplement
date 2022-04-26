@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Extended Supplement for De-noising distributed
+  acoustic sensing data using an adaptive
+  frequency-wavenumber filter
+message: 'If you use this resource, please cite it as below.'
+type: dataset
+authors:
+  - given-names: Marius Paul
+    family-names: Isken
+    email: mi@gfz-potsdam.de
+    affiliation: GFZ German Research Centre for Geosciences
+    orcid: 'https://orcid.org/0000-0003-2464-1630'
+  - given-names: Sebastian
+    family-names: Heimann
+    email: sebastian.heimann@gfz-potsdam.de
+    affiliation: 'University of Potsdam, Germany'
+  - given-names: Hannes
+    family-names: Vasyura-Bathke
+    affiliation: GFZ German Research Centre for Geosciences
+  - affiliation: GFZ German Research Centre for Geosciences
+    given-names: Torsten
+    family-names: Dahm
+    email: dahm@gfz-potsdam.de
