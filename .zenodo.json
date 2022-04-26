@@ -38,12 +38,7 @@
     ],
     "communities": [
         {
-            "identifier": "software"
-        }
-    ],
-    "grants": [
-        {
-            "id": "03EE4018"
+            "identifier": "dataset"
         }
     ]
 }
