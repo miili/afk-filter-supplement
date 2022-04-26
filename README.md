@@ -1,4 +1,4 @@
-# Electronic Supplement Plotting Scripts
+# Extended Supplement: DAS Adaptive frquency-wavenumber filter
 
 > De-noising distributed acoustic sensing data using an adaptive frequency-wavenumber filter; Marius P Isken, S Heimann, H Vasyura-Bathke, T Dahm;
 
