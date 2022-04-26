@@ -35,10 +35,5 @@
         "Seismology",
         "frequency wavenumber filter",
         "fk filter"
-    ],
-    "communities": [
-        {
-            "identifier": "dataset"
-        }
     ]
 }
