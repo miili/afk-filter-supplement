@@ -21,14 +21,6 @@
         }
     ],
     "license": "AGPL-3.0-or-later",
-    "related_identifiers": [
-        {
-            "scheme": "doi",
-            "identifier": "10.5880/GFZ.2.1.2017.001",
-            "relation": "References",
-            "resource_type": "software"
-        }
-    ],
     "keywords": [
         "Distributed acoustic sensing",
         "DAS",
