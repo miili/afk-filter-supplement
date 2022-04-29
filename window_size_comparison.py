@@ -92,11 +92,12 @@ for iax, ax in enumerate(axes):
         ha="left",
         transform=ax.transAxes,
     )
-    ax.axvline(14.05, c="w", ls="--", lw="1.0")
+    # ax.axvline(14.05, c="w", ls="--", lw="1.0")
+    ax.plot([14.065, 13.996], [336, 660], c="w", ls="--", lw="1.0")
     if ax != axes[-1]:
         ax.set_xlabel(None)
 
 fig.tight_layout()
-fig.savefig("figures/rectangular-comparison.png")
+fig.savefig("figures/rectangular-comparison.png", dpi=150)
 
 plt.show()

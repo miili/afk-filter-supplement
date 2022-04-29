@@ -137,7 +137,7 @@ def plot_goldstein_analysis(
     ax_trace.spines["right"].set_visible(False)
     ax_trace.set_xlabel("Time [s]")
     ax_trace.set_ylabel(
-        ("Norm. " if default_filter.normalize_power else "") + "Amplitude"
+        ("Norm. " if not default_filter.normalize_power else "") + "Amplitude"
     )
     ax_trace.plot(time, trace_raw, alpha=0.5, c="k", lw=1.0)[0]
     ax_trace.axvspan(*signal_window, fc="#E4E4E4")
@@ -147,7 +147,9 @@ def plot_goldstein_analysis(
     ax_spec.spines["top"].set_visible(False)
     ax_spec.spines["right"].set_visible(False)
     ax_spec.set_xlabel("Frequency [Hz]")
-    ax_spec.set_ylabel(("Norm. " if default_filter.normalize_power else "") + "Power")
+    ax_spec.set_ylabel(
+        ("Norm. " if not default_filter.normalize_power else "") + "Power"
+    )
     ax_spec.set_xlim(2.0 / signal_duration, sampling_rate / 2)
     ax_spec.axvspan(*noise_band, fc="#BCEBCE")
 
@@ -222,8 +224,7 @@ def plot_goldstein_analysis(
             alpha=filter.alpha,
             c=filter.color,
             lw=1.0,
-            label=f"$\\alpha={filter.exponent}$ ({noise_level_db:.1f} dB)"
-            + (", normalized" if filter.normalize_power else ""),
+            label=f"$\\alpha={filter.exponent}$ ({noise_level_db:.1f} dB)",
         )
 
     ax_spec.legend(loc="lower left", framealpha=0.7)
@@ -247,7 +248,7 @@ if True:
         time_extent=(1.0, 2.0),
         channel_extent=(150, 350),
         noise_band=(150, 500),
-        signal_window=(1.45, 1.75),
+        signal_window=(1.42, 1.75),
         show_plot=show_plot,
     )
 
